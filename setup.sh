@@ -14,5 +14,5 @@ unlink ~/.vimrc
 unlink ~/.gvimrc
 ln -s ~/dotfiles/vim ~/.vim
 ln -s ~/dotfiles/vimrc ~/.vimrc
-ln -s ~/vim/gvimrc ~/.gvimrc
+ln -s ~/dotfiles/gvimrc ~/.gvimrc
 
