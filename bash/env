@@ -2,4 +2,5 @@ export EDITOR="vim"
 
 #path
 export PATH=$PATH:~/dotfiles/bin
+export PATH=$PATH:~/android-sdk-mac_86/tools
 export PATH="/usr/local/bin:$PATH"
