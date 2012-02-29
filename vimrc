@@ -3,7 +3,7 @@ set nocompatible                  " Must come first because it changes other opt
 silent! call pathogen#runtime_append_all_bundles()
 
 set t_Co=256
-colorscheme warmbed256 
+colorscheme desert 
 
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
@@ -57,7 +57,7 @@ autocmd FileType ruby setlocal foldmethod=syntax foldlevel=1 foldnestmax=5
 autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
 
 " = keyboard mappings =
-
+imap jj <Esc>
 let mapleader=","    " set leader to ','
 
 " toggle display extra whitespaces

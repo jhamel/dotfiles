@@ -1,6 +1,7 @@
 if [ -s ~/.rvm/scripts/rvm ] ; then source ~/.rvm/scripts/rvm ; fi
 
 # common
+alias ls='ls -G'
 alias reload='. ~/.bashirc'
 alias g='mvim'
 alias ..='cd ..'
