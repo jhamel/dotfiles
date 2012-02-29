@@ -3,12 +3,11 @@ set nocompatible                  " Must come first because it changes other opt
 silent! call pathogen#runtime_append_all_bundles()
 
 set t_Co=256
-colorscheme desert 
 
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
 
-runtime macros/matchit.vim        " Load the matchit plugin.rsyntax enable
+"runtime macros/matchit.vim        " Load the matchit plugin.rsyntax enable
 
 set showcmd          " display incomplete commands
 set showmode         " show current mode down to bottom
@@ -58,6 +57,7 @@ autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
 
 " = keyboard mappings =
 imap jj <Esc>
+imap jk <Esc>
 let mapleader=","    " set leader to ','
 
 " toggle display extra whitespaces
@@ -155,7 +155,3 @@ function! MyFoldText()
   return sub . info
 endfunction
 
-"if &term =~ "xterm"
-  let &t_SI = "\<Esc>]12;purple\x7"
-  let &t_EI = "\<Esc>]12;blue\x7"
-"endif

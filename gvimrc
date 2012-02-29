@@ -17,4 +17,5 @@ set cursorline                    " highlight cursorline
 " put the * register on the system clipboard
 set clipboard+=unnamed
 
-colorscheme xoria256 
+colorscheme macvim
+
