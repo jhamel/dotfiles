@@ -1,7 +1,7 @@
 " Example Vim graphical configuration.
 " Copy to ~/.gvimrc or ~/_gvimrc.
 
-set guifont=Monaco:h15            " Font family and font size.
+set guifont=Menlo:h16            " Font family and font size.
 winpos 0 0
 
 set antialias                     " MacVim: smooth fonts.
@@ -17,5 +17,4 @@ set cursorline                    " highlight cursorline
 " put the * register on the system clipboard
 set clipboard+=unnamed
 
-colorscheme macvim
-
+colorscheme solarized
