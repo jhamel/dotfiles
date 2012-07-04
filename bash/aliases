@@ -44,7 +44,7 @@ export GREP_OPTIONS="--color"
 function h { cd ~/$1; }
 
 # bring me to code
-function c { cd ~/code/$1; }
+function c { cd ~/Dropbox/code/$1; }
 
 # find file
 function f() { find * -name $1; }
